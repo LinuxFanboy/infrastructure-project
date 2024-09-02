@@ -11,7 +11,7 @@ terraform {
 # Provide input variables for the VPC module
 inputs = {
   cidr_block   = "10.0.0.0/16"      # The CIDR block for the VPC in the dev environment
-  name         = "dev-vpc"          # The name of the VPC
+  name         = "dev-vpc-ss"          # The name of the VPC
   subnet_count = 2                  # The number of public subnets to create
   environment  = "dev"              # The environment name
   aws_region   = "eu-central-1"        # The AWS region

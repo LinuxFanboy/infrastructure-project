@@ -9,7 +9,7 @@ variable "cidr_block" {
 variable "name" {
   description = "The name for the VPC"
   type        = string
-  default     = "my-vpc"
+  default     = "my-vpc-ss"
 }
 
 # Define the number of public subnets to create with a default value
